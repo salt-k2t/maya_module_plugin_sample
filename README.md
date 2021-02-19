@@ -1,0 +1,1 @@
+# maya_module_plugin_sample
