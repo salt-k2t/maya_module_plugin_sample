@@ -1,14 +1,13 @@
 # maya_module_plugin_sample
 ## HowToInstall
-### Edit
-Open file "maya_module_plugin_sample.mod" and edit "PATH_TO_PLUGIN_FOLDER" for your path<br>
-> ex)<br>
-> \+ PLATFORM:mac Maya_Module_Example 1.0 /Users/salt-k2t/maya_plugin/maya_module_plugin_sample<br>
+### 1:DragAndDrop
+Drag and drop "maya_module_plugin_sample.mel" into the maya window
 
-### Move
-Move file "maya_module_plugin_sample.mod" under modules directory.
-> ex)<br>
-> /Users/salt-k2t/Library/Preferences/Autodesk/maya/2019/modules/maya_module_plugin_sample.mod
+### 2:RestartMaya
+Implementing so that it can be installed without rebooting...
 
 ## HowToExecute
 Menu→ModulePluginSample→ExecutePluginSample
+
+## Reference
+https://github.com/robertjoosten/maya-module-installer
